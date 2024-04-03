@@ -11,19 +11,45 @@ tags:
   - Script
 ---
 
-Le but de ce projet et de créé un reseau Docker avec un volume pour le partage de fichier puis 2 conteneurs qui peuvent se ping entre eux.<br>
+Le but de ce projet est de récolter les données de Nginx et de les afficher sur grafana.<br>
 <br>
-Ensuite le but est de de ce connecter avec FileZilla au reseau docker et d'envoyer des fichier au volume du réseau
+Ensuite le but sera de mettre plusieurs jobs dans le fichier .YML pour enrichir les data récoltés par grafana
+
+<section>
+<div class="content">
+	<ul>
+		<li>Documentation : <a href="/assets/grafana.pdf">ici</a>.</li>
+	</ul>
+</div>
+</section>
 
 <img
 					width="1553"
 					height="873"
-					src="/assets/file.jpg"
+					src="/assets/contener.jpg"
 					alt=""
 				/>
 <img
 					width="1553"
 					height="873"
-					src="/assets/test.jpg"
+					src="/assets/yml.jpg"
+					alt=""
+				/>	
+				<img
+					width="1553"
+					height="873"
+					src="/assets/nginx.jpg"
+					alt=""
+				/>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/graph.jpg"
+					alt=""
+				/>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/data.jpg"
 					alt=""
 				/>

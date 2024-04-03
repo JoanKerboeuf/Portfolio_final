@@ -1,0 +1,71 @@
+---
+import Icon from './Icon.astro';
+---
+
+<section class="box skills">
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="rocket-launch" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2><a href="https://www.zachstechturf.com/general-6">Benchmark GPU</a></h2>  
+		<p>Vous n’avez pas toujours besoin de la dernière et de la meilleure carte graphique. Il existe de nombreuses options d’ancienne génération qui peuvent rivaliser avec les GPU les plus récents et les plus performants. Utilisez ces graphiques de Tom's Hardware pour vos recherches.</p>
+	</div>
+
+	<a href="https://overclocking.com/test-amd-rx-7800-xt-nouvelle-reine-du-1440p/5/">
+		<img
+			width="553"
+			height="873"
+			src="/assets/3D.jpg"
+			alt=""
+		/>
+	</a>
+	
+	<a href="https://www.zachstechturf.com/general-6?pgid=ls3dc9yy-8d281cc1-651d-4999-a16d-06b71418052f">
+		<img
+			width="553"
+			height="873"
+			src="/assets/3050.jpg"
+			alt=""
+		/>
+	</a>
+	
+</section>
+
+<style>
+	.box {
+		border: 1px solid var(--gray-800);
+		border-radius: 0.75rem;
+		padding: 1.5rem;
+		background-color: var(--gray-999_40);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.skills {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.skills h2 {
+		font-size: var(--text-lg);
+	}
+
+	.skills p {
+		color: var(--gray-400);
+	}
+
+	@media (min-width: 50em) {
+		.box {
+			border-radius: 1.5rem;
+			padding: 2.5rem;
+		}
+
+		.skills {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 5rem;
+		}
+
+		.skills h2 {
+			font-size: var(--text-2xl);
+		}
+	}
+</style>

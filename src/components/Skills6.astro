@@ -1,0 +1,70 @@
+---
+import Icon from './Icon.astro';
+---
+
+<section class="box skills">
+	<div class="stack gap-2 lg:gap-4">
+		<h2><a href="https://www.hardwarecooking.fr/gpu-nvidia-rtx-5000-configuration-memoire/">Le minage de des cryptomonnaies</a></h2>  
+		<p> Le minage de crypto-monnaie se fait en résolvant des problèmes mathématiques complexes qui sécurisent les transactions sur le réseau de la crypto-monnaie. 
+			Les mineurs utilisent des ordinateurs puissants pour effectuer ces calculs et sont récompensés par des unités de la crypto-monnaie qu'ils minent. Le minage est essentiel pour maintenir la sécurité et l'intégrité des réseaux de crypto-monnaie décentralisés, 
+			tels que Bitcoin et Ethereum.</p>
+	</div>
+	<a href="https://www.lemondeinformatique.fr/actualites/lire-un-gpu-pour-le-minage-des-cryptomonnaies-chez-nvidia-71167.html">
+		<img
+			width="553"
+			height="873"
+			src="/assets/minage.jpg"
+			alt=""
+		/>
+	</a>
+	<a href="https://www.phonandroid.com/il-achete-78-geforce-rtx-3080-pour-miner-du-bitcoin-et-gagne-27000-dollars-par-mois.html">
+		<img
+			width="553"
+			height="873"
+			src="/assets/crypto.jpg"
+			alt=""
+		/>
+	</a>
+	
+</section>
+
+<style>
+	.box {
+		border: 1px solid var(--gray-800);
+		border-radius: 0.75rem;
+		padding: 1.5rem;
+		background-color: var(--gray-999_40);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.skills {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.skills h2 {
+		font-size: var(--text-lg);
+	}
+
+	.skills p {
+		color: var(--gray-400);
+	}
+
+	@media (min-width: 50em) {
+		.box {
+			border-radius: 1.5rem;
+			padding: 2.5rem;
+		}
+
+		.skills {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 5rem;
+		}
+
+		.skills h2 {
+			font-size: var(--text-2xl);
+		}
+	}
+</style>

@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+import Skills7 from '../components/Skills7.astro';
 ---
 
 <BaseLayout title="A propos de moi | Joan Kerboeuf" description="A propos de moi">
@@ -10,7 +11,7 @@ import Hero from '../components/Hero.astro';
 		<main class="wrapper about">
 			<Hero
 				title="Mes stages"
-				tagline="Découvrer mes stages du BTS."
+				tagline="Découvrez mes stages du BTS."
 			>
 				<img
 					width="1553"
@@ -23,18 +24,17 @@ import Hero from '../components/Hero.astro';
 			<section>
 				<div class="content">	
 				  <p class="left-aligned-text">
-					<strong>Au cours de ma formation, j'ai eu l'occasion d'effectuer deux stages en entreprise.<br>
+					<strong>Au cours de ma formation, j'ai eu l'occasion d'effectuer 2 stages en entreprise.<br>
 					<br>
 					Le premier au sein du lycée Maurice Ravel, basée à Paris 20ème dans le <strong style="font-size: 1.5em;">si</strong> de l'établissement.<br>
-					<br>
-					Le second au sein de la société ..., basée à ... dans le ... arrondissement et spécialisée dans ...</strong>
+					Au cours de mon deuxième stage, qui s'est déroulé dans la même école, j'ai été chargé de tâches plus complexes que lors de mon premier stage.</strong>
 				  </p>
 				</div>
 			  </section>
 			  
 			
 			<section>
-				<h2 class="section-title">Première année</h2>
+				<h2 class="section-title">1ère année</h2>
 				<div class="content">
 					<p>
 						<img
@@ -55,6 +55,13 @@ import Hero from '../components/Hero.astro';
 				src="/assets/script2.jpg"
 				alt=""
 			/>
+			<section>
+				<div class="content">
+					<ul>
+						<li>Image script <a href="/assets/script.jpg">ici</a>.</li>
+					</ul>
+				</div>
+			</section>
 				<img
 				width="700"
 				height="250"
@@ -73,15 +80,25 @@ import Hero from '../components/Hero.astro';
 				
 			</section>
 			<section>
-				<h2 class="section-title">Deuxieme année</h2>
+				<h2 class="section-title">2ème année
+					<br><br>Projet N°1</h2>
 				<div class="content">
-					<p>...</p>
+					<section>
+						<div class="content">
+							<ul>
+								<li>Documentation : <a href="/assets/AOMEI.pdf">ici</a>.</li>
+							</ul>
+						</div>
+						</section>
+						<br>
+					<Skills7 />
+				
+					</p>
 
 				</div>
 			</section>
 			
 		</main>
-
 		<ContactCTA />
 	</div>
 </BaseLayout>

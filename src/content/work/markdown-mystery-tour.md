@@ -10,7 +10,15 @@ tags:
   - Dev
   - HTML
 ---
-#### Aurélien vous demande :
+<section>
+<div class="content">
+	<ul>
+		<li>Documentation <a href="/assets/vitrine.pdf">ici</a>.</li>
+	</ul>
+</div>
+</section>
+
+#### Les objectifs :
 - De rechercher et d'acquérir des matériaux nécessaires à ce portail. Il désire un nouvel
 ordinateur portable qui sera mis en réseau avec son ancien ordinateur fixe situé dans son
 bureau,
@@ -27,4 +35,10 @@ L’objectif de cette mission est d’étudier les langages en vue d’élaborer
 					alt=""
 				/>
 L’objectif de cette mission est d’étudier les langages en vue d’élaborer un site web Responsive
-
+<section>
+<div class="content">
+	<ul>
+		<li>Site <a href="/assets/site-mairie/mairie.html">ici</a>.</li>
+	</ul>
+</div>
+</section>

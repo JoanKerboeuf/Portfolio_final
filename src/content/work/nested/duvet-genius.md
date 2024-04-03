@@ -10,7 +10,21 @@ tags:
   - VPN
   - Chiffrement
 ---
-
+<section>
+<div class="content">
+	<ul>
+		<li>Énoncé : <a href="/assets/ÉnoncéVPN.pdf">ici</a>.</li>
+	</ul>
+</div>
+</section>
+<section>
+<div class="content">
+	<ul>
+		<li>Documentation : <a href="/assets/VPN.pdf">ici</a>.</li>
+	</ul>
+</div>
+</section>
+<br>
 Objectif :<br>
 Créer un “tunnel” entre deux serveurs VPN afin que les clients de deux sites distants puissent se communique par ce réseau privé virtuel, Comme si ils étaient dans le même site géographique et d’une manière transparente.
 Les données seront chiffrées et transitées dans ce réseau virtuel.

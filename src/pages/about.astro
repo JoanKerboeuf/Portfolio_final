@@ -4,6 +4,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 import Skills from '../components/Skills2.astro';
+import Skills5 from '../components/Skills5.astro';
+import Skills6 from '../components/Skills6.astro';
 ---
 
 <BaseLayout title="Veille | Joan Kerboeuf" description="A propos de moi">
@@ -40,11 +42,22 @@ import Skills from '../components/Skills2.astro';
 			<section>
 				<h2 class="section-title">Outil de la veille</h2>
 				<div class="content">
-					<p>- Feedlyﾠﾠﾠﾠﾠﾠﾠﾠ- Twitter (X)<br>- Gmailﾠﾠﾠﾠﾠﾠﾠﾠﾠ- Instagram<br>- Google alert</p>
+					<p>
+						- <a href="https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3DUCHuiy8bXnmK5nisYHUd1J5g">Feedly</a>ﾠﾠﾠﾠﾠﾠﾠ 
+						- <a href="https://twitter.com/NVIDIAGeForceFR">Twitter (X)</a>
+						<br>
+						- <a href="#">Gmail</a>ﾠﾠﾠﾠﾠﾠﾠﾠ 
+						- <a href="https://www.instagram.com/nvidia/?hl=fr">Instagram</a>
+						<br>
+						- <a href="https://www.google.fr/alerts#2:0">Google Alert</a>
+					</p>
 				</div>
 			</section>
+			
 		</main>
+		
 		<Skills />
+		
 		<div class="stack gap-20 lg:gap-48">
 			<div class="wrapper stack gap-8 lg:gap-20">
 			  <header class="hero">
@@ -67,7 +80,8 @@ import Skills from '../components/Skills2.astro';
 				  </div>
 			  </header>
 			</div>
-		  </div>		  
+		  </div>	
+		  <Skills5 />
 		  <div class="stack gap-20 lg:gap-48">
 			<div class="wrapper stack gap-8 lg:gap-20">
 			  <header class="hero">
@@ -82,21 +96,21 @@ import Skills from '../components/Skills2.astro';
 				  align="start"
 				>
 				  <div class="presentation">
-					<p>Nvidia, Intel et AMD se positionnent comme des acteurs clés dans le domaine des semi-conducteurs,
-						 chacun avec des forces et des spécialités distinctes. Nvidia est renommée pour ses solutions GPU, 
-						 particulièrement prisées dans les secteurs du jeu, de l'intelligence artificielle et du calcul parallèle. 
-						 En revanche, Intel, traditionnellement associée aux processeurs, s'oriente de plus en plus vers les GPU discrets, 
-						 intensifiant ainsi la compétition avec Nvidia. AMD, fabricant polyvalent de semi-conducteurs, 
-						 rivalise également sur le marché des cartes graphiques avec sa gamme Radeon, 
-						 et investit dans des domaines tels que les processeurs et les semi-conducteurs personnalisés. 
-						 L'innovation technologique, les partenariats stratégiques, 
-						 et l'adaptation aux évolutions du marché des semi-conducteurs sont autant de facteurs qui façonnent la dynamique concurrentielle 
-						 entre ces entreprises.</p>
+					<p>Nvidia, Intel et AMD dominent le secteur des semi-conducteurs, chacun se démarquant par ses expertises. 
+						Nvidia excelle dans les GPU, notamment dans les domaines du jeu, de l'IA et du calcul parallèle. 
+						Intel, traditionnellement reconnue pour ses processeurs, se tourne vers les GPU discrets, 
+						intensifiant la concurrence avec Nvidia. AMD, polyvalente, 
+						rivalise également avec sa gamme Radeon dans les cartes graphiques, 
+						tout en investissant dans les processeurs et les semi-conducteurs personnalisés. 
+						L'innovation, les partenariats stratégiques et 
+						l'adaptation aux tendances du marché façonnent la compétition entre ces géants des semi-conducteurs.
+					</p>
 					<!-- Ajoute ici le reste de ton texte de présentation -->
 				  </div>
 				</Hero>
 			  </header>
 			</div>
+			<Skills6 />
 		  </div>		  
 	
 		<ContactCTA />
